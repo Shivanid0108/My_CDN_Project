@@ -1,0 +1,26 @@
+{
+  "name": "content_delivery_network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivanid0108/My_CDN_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivanid0108/My_CDN_Project/issues"
+  },
+  "homepage": "https://github.com/Shivanid0108/My_CDN_Project#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "http2": "^3.3.7",
+    "mongodb": "^6.10.0",
+    "monodb": "^1.5.1"
+  }
+}
