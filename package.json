@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Shivanid0108/My_CDN_Project#readme",
   "dependencies": {
+    "axios": "^1.7.7",
     "express": "^4.21.1",
     "http2": "^3.3.7",
     "mongodb": "^6.10.0",
