@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Delivery Network</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Content Delivery Network</h1>
+  </header>
+
+  <main>
+    <section id="video-upload">
+      <h2>Upload Video</h2>
+      <input type="file" id="videoFile" accept="video/*">
+      <button id="uploadBtn">Upload Video</button>
+      <div id="uploadStatus"></div>
+    </section>
+
+    <section id="video-download">
+      <h2>Download Video</h2>
+      <input type="text" id="downloadFilename" placeholder="Enter filename to download">
+      <button id="downloadBtn">Download Video</button>
+      <div id="downloadStatus"></div>
+    </section>
+
+    <section id="delete-cache">
+      <h2>Delete Cached Content</h2>
+      <input type="text" id="deleteFilename" placeholder="Enter filename to delete from cache">
+      <button id="deleteCacheBtn">Delete Cached Content</button>
+      <div id="deleteStatus"></div>
+    </section>
+
+    <section id="video-player">
+      <h2>Video Player</h2>
+      <video id="videoPlayer" width="600" controls>
+        <source id="videoSource" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <br>
+      <label for="playbackSpeed">Playback Speed: </label>
+      <select id="playbackSpeed">
+        <option value="0.5">0.5x</option>
+        <option value="1" selected>1x</option>
+        <option value="1.5">1.5x</option>
+        <option value="2">2x</option>
+      </select>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

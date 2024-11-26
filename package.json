@@ -19,7 +19,9 @@
   "homepage": "https://github.com/Shivanid0108/My_CDN_Project#readme",
   "dependencies": {
     "axios": "^1.7.7",
+    "cors": "^2.8.5",
     "express": "^4.21.1",
+    "express-fileupload": "^1.5.1",
     "http2": "^3.3.7",
     "mongodb": "^6.10.0",
     "monodb": "^1.5.1"
