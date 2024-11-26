@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="file"], input[type="text"], select {
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  #uploadStatus, #downloadStatus, #deleteStatus {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  video {
+    margin-top: 20px;
+  }
+  
